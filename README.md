@@ -14,3 +14,8 @@ In this web-based virtual pet simulation game, you can give your own virtual fro
 - **Save and load**: Save and load your game progress.
 - **Interactive pet status indicators**: Monitor your pet’s health, hunger, happiness, and cleanliness.
 - **Fun images**: Enjoy engaging images that depict your pet's actions.
+
+## Live Demo
+
+Check out the live demo of the Virtual Pet Game [here](https://alanna-mc.github.io/virtual-web-pet/).
+
