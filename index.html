@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+  <h1 class= 'title' id="title">My Virtual Pet</h1>
+  <div id="name">
+    <input type="text" id="pet-name-input" placeholder="Give me a name">
+    <button id="random-name">Random Name</button>
+    <button id="submit-name">Submit</button>
+  </div>
+
+  <div class="pet-container-stats-container">
+    <div class="pet-container">
+      <img id="pet-image" src="images/frogStates/default.png">
+    </div>
+    <div class="current-state-container hidden" id="stats">
+      <div id='hunger'> </div>
+      <p>Hunger: <span id="hunger-state">10</span></p>
+      <div id='energy'> </div>
+      <p>Energy: <span id="energy-state">10</span></p>
+      <div id='happiness'> </div>
+      <p>Happiness: <span id="happiness-state">10</span></p>
+      <div id='cleanliness'> </div>
+      <p>Cleanliness: <span id="cleanliness-state">10</span></p>
+    </div>
+  </div>
+  
+  <div class="lower-buttons-container">
+    <div id="action-buttons" class="hidden action-button-style">
+      <button id="eat-button">Eat</button>
+      <button id="sleep-button">Sleep</button>
+      <button id="play-button">Play</button>
+      <button id="wash-button">Wash</button>
+    </div>
+  
+    <div id="setting-buttons" class=' hidden setting-button-style'>
+      <button id='save'>Save</button>
+      <button id='load'>Load</button>
+      <button id='reset'>Reset</button>     
+    </div>
+  </div>
+</div>
+
+<script src="myScript.js"></script> 
+
+</body>
+</html>

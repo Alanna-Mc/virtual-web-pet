@@ -1,0 +1,70 @@
+.hidden{
+    display: none;
+  }
+  
+  .reveal{
+    display: block;
+  }
+  
+  .container {
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    font-family: monospace;
+  }
+  
+  .pet-container-stats-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .pet-container{
+    background-color: lightblue;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: darkcyan;
+  } 
+  
+  .current-state-container {
+    width: 130px;
+    height: 250px;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: lightblue;
+  }
+  
+  .lower-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+  }
+  
+  .setting-button-style {
+    padding-left: 40px;
+  }
+  
+  .title{
+    font-size: 40px;
+
+  }
+  
